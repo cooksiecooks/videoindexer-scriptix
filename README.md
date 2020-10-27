@@ -88,15 +88,15 @@ The template generates 3 separate Logic Apps, each taking care of one step in th
 
 *Logic app #1: Uploads video file to Video Indexer*
 
-![Logic App flow  #1](logic_app_flow_1.png)
+![Logic App flow  #1](logic_app_1.png)
 
 *Logic app #2: Uploads video file to Zoom Media*
 
-![Logic App flow  #2](logic_app_flow_2.png)
+![Logic App flow  #2](logic_app_2.png)
 
 *Logic app #3_ Updates VTT file in Video Indexer*
 
-![Logic App flow  #3](logic_app_flow_3.png)
+![Logic App flow  #3](logic_app_3.png)
 
 ## More information
 For more information on how to use the Video Indexer API please see [this blog post](https://blogs.msdn.microsoft.com/golive/2018/03/26/using-microsoft-azure-video-indexer/) by Greg Oliver (@sebastus).
