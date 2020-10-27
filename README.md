@@ -2,6 +2,7 @@
 
 _Update June 17, 2019:_ Added parameter for setting the Zoom Media language separately. Also now using the new PowerShell Az Module.
 _Update August 6, 2018:_ This Logic App now uses the official Video Indexer V2 Connector for Logic Apps.
+
 _Update October 27, 2020:_ Copied repo from source: https://github.com/blokje/videoindexer-zoommedia ; Added installAzModule.ps1 ; updated readme notes.
 
 
