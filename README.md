@@ -1,7 +1,8 @@
-# Video Indexer + Zoom Media
+# Video Indexer + Scriptix (formerly known as Zoom Media)
 
 _Update June 17, 2019:_ Added parameter for setting the Zoom Media language separately. Also now using the new PowerShell Az Module.
 _Update August 6, 2018:_ This Logic App now uses the official Video Indexer V2 Connector for Logic Apps.
+_Update October 27, 2020:_ Copied repo from source: https://github.com/blokje/videoindexer-zoommedia ; Added installAzModule.ps1 ; updated readme notes.
 
 
 
@@ -11,7 +12,7 @@ The Microsoft [Video Indexer](https://www.videoindexer.ai/) service extracts val
 The PowerShell script included in this repo will deploy a set of Azure resources that integrate the Microsoft Video Indexer service with Zoom Media's speech-to-text service. This script can be easily updated to work with other transcription service providers to cover a broader range of languages.
 
 ## Deployment
-Please ensure that you are logged into your Azure environment first in PowerShell using a command such as "Connect-AzAccount".
+Please ensure that you are logged into your Azure environment first in PowerShell using a command such as "Connect-AzAccount". If Az Module isn't installed to your PC/Desktop machine, you may run .\installAzModule.ps1
 
 Next we can deploy the required resources using the deploy.ps1 script:
 
